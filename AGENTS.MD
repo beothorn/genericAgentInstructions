@@ -21,6 +21,7 @@ It "bubbles up" only as high as needed, but not higher. This way it is contained
 If you have A, B, C on a folder, and A and B both depend on C, keep C on the parent folder and create a new one for A and a new one for B. So ./A ./BCode/B ./CCode/C
 Folders should hold code that is as independent as possible. This way when inside a folder, I can focus on code on that folder.  
 The goal is to know that if I am in a folder without child folders, I can read it or maybe navigate up to read code related, but avoid navigating sideways on the folder structure.  
+There will be cases where this is not possible, then try follow the principle of self contained as possible.
 
 Code should be easy to find and to read.  
 Break responsibilities in different functions and files.  
