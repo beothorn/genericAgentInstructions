@@ -24,6 +24,10 @@ The goal is to know that if I am in a folder without child folders, I can read i
 There will be cases where this is not possible, then try follow the principle of self contained as possible.
 
 Code should be easy to find and to read.  
+Prefer immutability, except when performance is affected.  
+Prefer less complexity, self contained functions, imutable variables, bigger meaningfull names over small naming (unless it is a global function used everywhere).  
+Keep code declaration and usage close when possible.  
+Keep code independent and flexible to be moved. That means avoid complex inheritance, prefer composition.  
 Break responsibilities in different functions and files.  
 Avoid complexity, count the number of things one need to remember when reading a piece of code (like variable states, if a condition was met or not)  
 Prefer strategy instead of decision taking, or in other words, put conditionals as early as possible.  
