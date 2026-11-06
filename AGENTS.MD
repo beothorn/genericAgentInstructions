@@ -168,3 +168,12 @@ function x(URL url){ // Where Url can only be created if url string is valid
   do something;
 }
 ```
+
+Good code also needs refactoring, if you find that some code defines an important business concept, it may need their own folder and some refatorings. Or if code is changed always together, maybe they need to live together in a new folder.  
+Try using automated refactoring if available such as:  
+Rename function/variable  
+Extract function  
+Extract to new variable  
+Move to new file  
+Inline  
+
