@@ -1,4 +1,7 @@
 These instructions apply to any programming language  
+
+# Code
+
 Commit often, in small self contained steps. Always us a good descriptive title and a description of what you done, why and who asked for it and how was this asked.  
 Rely on git blame to understand why a code is like it is. also use git log to understand code motivation.  
 If you need, revert commits, cherry pick or create feature branches.  
@@ -182,4 +185,10 @@ Extract function
 Extract to new variable  
 Move to new file  
 Inline  
+Others...  
+
+# Documentation  
+
+Keep two separate folders for documentation. Docs_technical and Docs_user. On technical be very technical, write freely about business logic, decisions gotchas, warnings, sequence diagrams, technical decisions and so on. This is for you and technical people.  
+On user, try to always keep the user perspective, do not go into implementation or internal details, focus on whatever interface the user uses for interacting with the software (ui or cli or wathever). Do not mention code, or programming language or anything unless necessary or if it is expected the user know this. Keep the user docs direct, have a glossary and try to apply the Descartes method, where you don`t bring terms if they were not explained before (use links).    
 
