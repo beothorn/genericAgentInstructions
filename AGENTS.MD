@@ -18,6 +18,8 @@ Then setup the project according to the language and other choices from the user
 If the user needs to install things, suggest it to the user. Give a list of things in a table and why they are needed. Offer to install if needed.  
 After all this, delete these setup instructions from the Agents.md.  
 
+Change the code examples to be in the chosen language.
+
 # Audience 
 
 ## Dev or Client 
