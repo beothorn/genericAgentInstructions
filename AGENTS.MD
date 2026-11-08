@@ -18,7 +18,10 @@ Then setup the project according to the language and other choices from the user
 If the user needs to install things, suggest it to the user. Give a list of things in a table and why they are needed. Offer to install if needed.  
 After all this, delete these setup instructions from the Agents.md.  
 
-Change the code examples to be in the chosen language.
+Change the code examples to be in the chosen language.  
+
+Planning is essential. Suggest to use open spec if the user wants, if they do, do the setup for open spec. If not, offer to just create a folder plan and to change the agents to remind to always plan.  
+If the user is not interested on that, just skip it and remove the section from the agents md.
 
 # Audience 
 
@@ -46,6 +49,10 @@ Fill after set up
 # Security 
 
 Never commit passwords, keys or anything sensitive. Prefer having them as env vars. Create a folder secrets and put it on git ignore. Ask the dev to configure env vars and if really needed put secrets on this file. Avoid at all costs reading the secret. Ask the user to edit a file with the password or key on the secrets folder if needed. If the user wants to push a secret anyway, advise they not to, but if they insist (could be that is for tests, for example) give a warning and do it, 
+
+# Planning  
+
+Fill or delete after set up  
 
 # Code
 
