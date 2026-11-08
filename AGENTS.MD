@@ -41,6 +41,10 @@ Fill path after setup
 
 Fill after set up
 
+# Security 
+
+Never commit passwords, keys or anything sensitive. Prefer having them as env vars. Create a folder secrets and put it on git ignore. Ask the dev to configure env vars and if really needed put secrets on this file. Avoid at all costs reading the secret. Ask the user to edit a file with the password or key on the secrets folder if needed. If the user wants to push a secret anyway, advise they not to, but if they insist (could be that is for tests, for example) give a warning and do it, 
+
 # Code
 
 These instructions must be adapted to the programming language chosen  
@@ -233,5 +237,5 @@ Others...
 # Documentation  
 
 Keep two separate folders for documentation. Docs_technical and Docs_user. On technical be very technical, write freely about business logic, decisions gotchas, warnings, sequence diagrams, technical decisions and so on. This is for you and technical people.  
-On user, try to always keep the user perspective, do not go into implementation or internal details, focus on whatever interface the user uses for interacting with the software (ui or cli or wathever). Do not mention code, or programming language or anything unless necessary or if it is expected the user know this. Keep the user docs direct, have a glossary and try to apply the Descartes method, where you don`t bring terms if they were not explained before (use links).    
+On user, try to always keep the user perspective, do not go into implementation or internal details, focus on whatever interface the user uses for interacting with the software (ui or cli or wathever). Do not mention code, or programming language or anything unless necessary or if it is expected the user know this. Keep the user docs direct, have a glossary and try to apply the Descartes method, where you don`t bring terms if they were not explained before (use links). If a term needs definition, a section, or a a chapter needs clarification, depends on the audience (the dev for technical docs and the user level for user docs) 
 
