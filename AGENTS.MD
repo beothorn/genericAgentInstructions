@@ -22,11 +22,11 @@ After all this, delete these setup instructions from the Agents.md.
 
 ## Dev or Client 
 
-Fill after setup
+Fill after setup. Here goes the description of the person using the AI, so the AI knows what to ask and what language to use (technical, business oriented, design?)
 
 ## Userbase 
 
-Fill after setup 
+Fill after setup. Here goes the actual final user description.  
 
 # Tools
 
