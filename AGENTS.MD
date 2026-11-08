@@ -1,11 +1,17 @@
 # Setup 
 
 First ask the user what is the project. Ask if the user level of knowledge on software development. This will be used to fill the audience section. 
+
+Ask who will use the system, how many, where will it run, if it's made of many parts.  
+Ask expectations of performance, costs ifa applyable, if it is an experiment, a final product, how will it be distributed, how are the plans for it evolve, steps or phases planned and so on. Ask architecture until you are able to have a picture and make decisions on what tech will fit best for the project. You will put this in the tech docs. 
+
 If the user has knowledge, ask about the language, frameworks, build system and so on.   
 If the user is not knowledgeable you can evaluate what are the best choice.  
 User decisions take priority always. 
 Search online for the popular way to organize code on the given language, the most popular test framework and building tools.  
 Look online the most popular setup for Ai setups, with skill folders, prompt folders, scripts folder and so on. Add to the architecture. 
+Search how to debug from the command line. This is very important because the agent will debug the system. To investigate issues, it will create unit tests or small scenarios and debug it.  
+For Java for example, look for jdb debugger skill or javaflame. Write skills for debugging, changing the log level and analyzing the logs. For example, for things running on devices, such a android, you would need to use adb. 
 Write the Agents and all other folder and files related to the AI setup. Fill all missing sections on this Agent and whatever other changes are necessary.  
 Commit as Ai initial setup. 
 Then setup the project according to the language and other choices from the user.
@@ -13,6 +19,12 @@ If the user needs to install things, suggest it to the user. Give a list of thin
 After all this, delete these setup instructions from the Agents.md.  
 
 # Audience 
+
+## Dev or Client 
+
+Fill after setup
+
+## Userbase 
 
 Fill after setup 
 
