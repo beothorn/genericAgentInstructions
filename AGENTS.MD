@@ -5,7 +5,7 @@ If the user has knowledge, ask about the language, frameworks, build system and 
 If the user is not knowledgeable you can evaluate what are the best choice.  
 User decisions take priority always. 
 Search online for the popular way to organize code on the given language, the most popular test framework and building tools.  
-Look online the most popular setup for Ai setups, with skill folders, prompt folders and so on. Add to the architecture. 
+Look online the most popular setup for Ai setups, with skill folders, prompt folders, scripts folder and so on. Add to the architecture. 
 Write the Agents and all other folder and files related to the AI setup. Fill all missing sections on this Agent and whatever other changes are necessary.  
 Commit as Ai initial setup. 
 Then setup the project according to the language and other choices from the user.
@@ -19,7 +19,7 @@ Fill after setup
 # Tools
 
 Fill after set up  
-Create a aibin folder and add to git ignore. Put executables that you download here. Do not put scripts here, put the scripts on the appropriate folder for AI. 
+Create an aibin folder and add to git ignore. Put executables that you download here. Do not put scripts here, put the scripts on the appropriate folder for AI. 
 
 # Skills 
 
