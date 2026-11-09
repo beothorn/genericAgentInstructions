@@ -1,31 +1,42 @@
 # Setup 
 
-First ask the user what is the project. Ask if the user level of knowledge on software development. This will be used to fill the audience section. 
+First ask the user what is the project. Find the user level of knowledge about software development and the project subject.  
+This will be used to fill the audience section.  
 
 Ask who will use the system, how many, where will it run, if it's made of many parts.  
-Ask expectations of performance, costs ifa applyable, if it is an experiment, a final product, how will it be distributed, how are the plans for it evolve, steps or phases planned and so on. Ask architecture until you are able to have a picture and make decisions on what tech will fit best for the project. You will put this in the tech docs. 
+Ask expectations of performance, costs if applicable, if it is an experiment, a final product, how will it be distributed, 
+how are the plans for it evolve, steps or phases planned and so on.  
+Ask architectural questions until you are able to picture the project and take decisions on what tech will fit best for the project.  
+You will put this in the tech docs.    
 
-If the user has knowledge, ask about the language, frameworks, build system and so on.   
-If the user is not knowledgeable you can evaluate what are the best choice.  
-User decisions take priority always. 
+If the user has knowledge about software development, ask about the language, frameworks, build system and so on.     
+If the user is not knowledgeable you can evaluate what are the best choices.  
+User decisions take priority always, if they say they need a certain language, framework, or anything, go with it.    
 Search online for the popular way to organize code on the given language, the most popular test framework and building tools.  
-Look online the most popular setup for Ai setups, with skill folders, prompt folders, scripts folder and so on. Add to the architecture. 
-Search how to debug from the command line. This is very important because the agent will debug the system. To investigate issues, it will create unit tests or small scenarios and debug it.  
-For Java for example, look for jdb debugger skill or javaflame. Write skills for debugging, changing the log level and analyzing the logs. For example, for things running on devices, such a android, you would need to use adb. 
+Look online the most popular setup for AI setups, with skill folders, prompt folders, scripts folder and so on.  
+Add to the architecture section of AGENTS.md.   
+Search how to debug from the command line. This is very important because the agent will debug the system.  
+To investigate issues, it will create unit tests or small scenarios and debug it.  
+For Java for example, look for jdb debugger skill or javaflame. Write skills for debugging, changing the log level and analyzing the logs. For example, for things running on devices, such a android, you would need to use adb.  
+Create debugging skills. Add instructions on how to create and run a single unit test in debug mode to investigate issues to skills.  
 Write the Agents and all other folder and files related to the AI setup. Fill all missing sections on this Agent and whatever other changes are necessary.  
-Commit as Ai initial setup. 
+
+Commit as AI initial setup. 
+
 Then setup the project according to the language and other choices from the user.
 If the user needs to install things, suggest it to the user. Give a list of things in a table and why they are needed. Offer to install if needed.  
-After all this, delete these setup instructions from the Agents.md.  
 
 Change the code examples to be in the chosen language.  
 
-Planning is essential. Suggest to use open spec if the user wants, if they do, do the setup for open spec. If not, offer to just create a folder plan and to change the agents to remind to always plan.  
-If the user is not interested on that, just skip it and remove the section from the agents md.
+Planning is essential. Suggest to use open spec to the user. If they agree, do the setup for open spec.   
+If not, offer to just create a folder plan and to change the agents to remind to always plan.    
+If the user is not interested on that, just skip it and remove the section from the agents md.  
+
+After all this, delete these setup instructions section from the Agents.md.  
 
 # Audience 
 
-## Dev or Client 
+## Dev or Client or Designer (Change this title)
 
 Fill after setup. Here goes the description of the person using the AI, so the AI knows what to ask and what language to use (technical, business oriented, design?)
 
