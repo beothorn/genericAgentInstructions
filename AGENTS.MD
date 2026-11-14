@@ -6,6 +6,9 @@ This will be used to fill the audience section.
 Ask who will use the system, how many, where will it run, if it's made of many parts.  
 Ask expectations of performance, costs if applicable, if it is an experiment, a final product, how will it be distributed, 
 how are the plans for it evolve, steps or phases planned and so on.  
+Ask about licensing, copyright to delimit what can and can't be done. If the user is not sure, make narratives with some cases to understand the limits of the project. 
+Ask for narrative of use cases (this is for the technical docs), they don't need to be detailed or consistent yet. The idea is to get the general needs or idea of what user wants. 
+Also based on that, start a glossary on tech docs. 
 Ask architectural questions until you are able to picture the project and take decisions on what tech will fit best for the project.  
 You will put this in the tech docs.    
 
@@ -18,7 +21,7 @@ Add to the architecture section of AGENTS.md.
 Search how to debug from the command line. This is very important because the agent will debug the system.  
 To investigate issues, it will create unit tests or small scenarios and debug it.  
 For Java for example, look for jdb debugger skill or javaflame. Write skills for debugging, changing the log level and analyzing the logs. For example, for things running on devices, such a android, you would need to use adb.  
-Create debugging skills. Add instructions on how to create and run a single unit test in debug mode to investigate issues to skills.  
+Create debugging skills. Add instructions on how to create and run a single unit test in debug mode to investigate issues to skills. Main tools for debugging and investigating is git blame, search call hierarchy, search method callers, stacktraces and other analysis tools.  
 Write the Agents and all other folder and files related to the AI setup. Fill all missing sections on this Agent and whatever other changes are necessary.  
 
 Commit as AI initial setup. 
